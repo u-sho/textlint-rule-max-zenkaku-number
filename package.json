@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "textlintrule"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "textlint-scripts test",
+    "build": "textlint-scripts build",
+    "prepublish": "npm run --if-present build"
+  },
+  "devDependencies": {
+    "textlint-scripts": "^3.0.0",
+    "textlint-tester": "^5.1.15"
+  },
+  "name": "textlint-rule-max-zenkaku-number",
+  "description": "全角数字の最大桁数を制限するtextlint rule",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u-sho/textlint-rule-max-zenkaku-number.git"
+  },
+  "author": "u-sho <shouhei.uechi@gmail.com> (https://github.com/u-sho)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/u-sho/textlint-rule-max-zenkaku-number/issues"
+  },
+  "homepage": "https://github.com/u-sho/textlint-rule-max-zenkaku-number#readme"
+}
