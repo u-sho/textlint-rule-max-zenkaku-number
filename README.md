@@ -1,6 +1,6 @@
 # textlint-rule-max-zenkaku-number
 
-全角数字の最大桁数を制限するtextlint rule
+全角数字の最大桁数を制限するtextlint rule (明日完成予定)
 
 ## Install
 
